@@ -11,6 +11,9 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{The Free Keyword Tool by WordStream provides extensive, relevant keyword and related keyword suggestions}
   s.description = %q{The Free Keyword Tool by WordStream provides extensive, relevant keyword and related keyword suggestions}
+  s.add_dependency "httparty"
+  s.add_dependency "hashie"
+  s.add_dependency "json"
 
   s.rubyforge_project = "wordstreamik"
 
